@@ -1,0 +1,45 @@
+{
+  "name": "SWL2001",
+  "version": "3.2.4",
+  "build": {
+    "flags": [
+      "-I.",
+      "-Ismtc_modem_api",
+      "-Ismtc_modem_core/device_management",
+      "-Ismtc_modem_core/lorawan_api",
+      "-Ismtc_modem_core/lr1mac",
+      "-Ismtc_modem_core/lr1mac/src",
+      "-Ismtc_modem_core/lr1mac/src/lr1mac_class_b",
+      "-Ismtc_modem_core/lr1mac/src/lr1mac_class_c",
+      "-Ismtc_modem_core/lr1mac/src/services",
+      "-Ismtc_modem_core/lr1mac/src/smtc_real/src",
+      "-Ismtc_modem_core/modem_config",
+      "-Ismtc_modem_core/modem_services",
+      "-Ismtc_modem_core/modem_supervisor",
+      "-Ismtc_modem_core/radio_drivers/lr11xx_driver/src",
+      "-Ismtc_modem_core/radio_planner/src",
+      "-Ismtc_modem_core/smtc_modem_crypto",
+      "-Ismtc_modem_core/smtc_modem_crypto/smtc_secure_element",
+      "-Ismtc_modem_core/smtc_modem_services",
+      "-Ismtc_modem_core/smtc_modem_services/src",
+      "-Ismtc_modem_core/smtc_modem_services/src/file_upload",
+      "-Ismtc_modem_core/smtc_modem_services/src/stream",
+      "-Ismtc_modem_core/smtc_ral/src",
+      "-Ismtc_modem_core/smtc_ralf/src",
+      "-Ismtc_modem_hal"
+    ],
+    "srcFilter": [
+      "+<*>",
+      "-<smtc_modem_core/modem_services/fragmentation/>",
+      "-<smtc_modem_core/lr1mac/src/lr1mac_class_b/smtc_d2d.c>",
+      "-<smtc_modem_core/radio_drivers/>",
+      "+<smtc_modem_core/radio_drivers/lr11xx_driver>",
+      "-<smtc_modem_core/smtc_modem_crypto/soft_secure_element/>",
+      "-<smtc_modem_core/smtc_ral/>",
+      "+<smtc_modem_core/smtc_ral/src/ral_lr11xx.c>",
+      "-<smtc_modem_core/smtc_ralf/>",
+      "+<smtc_modem_core/smtc_ralf/src/ralf_lr11xx.c>",
+      "-<utilities/>"
+    ]
+  }
+}

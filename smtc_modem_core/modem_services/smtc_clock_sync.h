@@ -45,7 +45,7 @@ extern "C" {
 
 #include <stdint.h>    // C99 types
 #include <stdbool.h>   // bool type
-#include "alc_sync.h"  // alc_sync_ctx_t
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"  // alc_sync_ctx_t
 
 /*
  * -----------------------------------------------------------------------------

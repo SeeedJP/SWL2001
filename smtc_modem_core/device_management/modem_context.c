@@ -49,7 +49,7 @@
 #include "smtc_modem_api.h"
 #include "smtc_modem_middleware_advanced_api.h"
 #include "smtc_modem_utilities.h"
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 #include "lr1mac_utilities.h"
 #include "modem_supervisor.h"
 
@@ -63,7 +63,7 @@
 #endif  // LR1110_MODEM_E
 
 #if defined( LR11XX_TRANSCEIVER ) && defined( ENABLE_MODEM_GNSS_FEATURE )
-#include "almanac_update.h"
+#include "smtc_modem_core/smtc_modem_services/headers/almanac_update.h"
 #endif  // LR11XX_TRANSCEIVER && ENABLE_MODEM_GNSS_FEATURE
 
 #if defined( USE_LR11XX_CE )

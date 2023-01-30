@@ -34,7 +34,7 @@
  * -----------------------------------------------------------------------------
  * --- DEPENDENCIES ------------------------------------------------------------
  */
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 
 #include <stdbool.h>  // bool type
 #include <stdint.h>   // C99 types

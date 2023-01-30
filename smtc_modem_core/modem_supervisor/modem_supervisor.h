@@ -48,15 +48,15 @@ extern "C" {
 
 #if defined( ADD_SMTC_ALC_SYNC )
 #include "smtc_clock_sync.h"
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 #endif  // ADD_SMTC_ALC_SYNC
 
 #if defined( ADD_SMTC_STREAM )
-#include "stream.h"
+#include "smtc_modem_core/smtc_modem_services/headers/stream.h"
 #endif  // ADD_SMTC_STREAM
 
 #if defined( ADD_SMTC_FILE_UPLOAD )
-#include "file_upload.h"
+#include "smtc_modem_core/smtc_modem_services/headers/file_upload.h"
 #endif  // ADD_SMTC_FILE_UPLOAD
 
 /*

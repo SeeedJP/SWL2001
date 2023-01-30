@@ -36,7 +36,7 @@
  * -----------------------------------------------------------------------------
  * --- DEPENDENCIES ------------------------------------------------------------
  */
-#include "file_upload.h"
+#include "smtc_modem_core/smtc_modem_services/headers/file_upload.h"
 
 #include <stdbool.h>  // bool type
 #include <stdint.h>   // C99 types

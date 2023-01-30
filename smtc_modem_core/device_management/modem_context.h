@@ -47,7 +47,7 @@ extern "C" {
 #include "smtc_modem_hal.h"
 #include "device_management_defs.h"
 #include "lr1mac_defs.h"
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 #include "radio_planner.h"
 
 /*

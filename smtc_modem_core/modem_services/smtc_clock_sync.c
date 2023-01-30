@@ -40,7 +40,7 @@
 #include <stdbool.h>  // bool type
 #include <string.h>
 
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 #include "smtc_clock_sync.h"
 #include "modem_services_common.h"
 #include "modem_context.h"

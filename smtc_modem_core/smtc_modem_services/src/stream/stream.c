@@ -36,7 +36,7 @@
  * --- DEPENDENCIES ------------------------------------------------------------
  */
 
-#include "stream.h"
+#include "smtc_modem_core/smtc_modem_services/headers/stream.h"
 
 #include <string.h>
 

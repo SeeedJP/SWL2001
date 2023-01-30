@@ -43,7 +43,7 @@
 #include <stddef.h>  //NULL
 #include <string.h>  //memcpy
 
-#include "almanac_update.h"
+#include "smtc_modem_core/smtc_modem_services/headers/almanac_update.h"
 #include "modem_services_common.h"
 
 /*

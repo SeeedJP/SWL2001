@@ -44,8 +44,8 @@
 
 #include "smtc_modem_hal_dbg_trace.h"
 #include "smtc_modem_hal.h"
-#include "alc_sync.h"
-#include "stream.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/stream.h"
 #include "device_management_defs.h"
 #include "modem_context.h"
 #include "modem_supervisor.h"
@@ -60,7 +60,7 @@
 #endif  // LR11XX_TRANSCEIVER || LR1110_MODEM_E
 
 #if defined( ENABLE_MODEM_GNSS_FEATURE ) && defined( LR11XX_TRANSCEIVER )
-#include "almanac_update.h"
+#include "smtc_modem_core/smtc_modem_services/headers/almanac_update.h"
 #include "lr11xx_gnss.h"
 #endif  // ENABLE_MODEM_GNSS_FEATURE && LR11XX_TRANSCEIVER
 

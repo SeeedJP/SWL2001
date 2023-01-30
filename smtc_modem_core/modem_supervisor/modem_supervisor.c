@@ -58,14 +58,14 @@
 
 // services
 #if defined( ADD_SMTC_FILE_UPLOAD )
-#include "file_upload.h"
+#include "smtc_modem_core/smtc_modem_services/headers/file_upload.h"
 #endif  // ADD_SMTC_FILE_UPLOAD
 
 #if defined( ADD_SMTC_STREAM )
-#include "stream.h"
+#include "smtc_modem_core/smtc_modem_services/headers/stream.h"
 #endif  // ADD_SMTC_STREAM
 
-#include "alc_sync.h"
+#include "smtc_modem_core/smtc_modem_services/headers/alc_sync.h"
 #include "smtc_clock_sync.h"
 
 #if defined( LR1110_MODEM_E )
